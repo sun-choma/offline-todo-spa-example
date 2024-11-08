@@ -1,0 +1,1 @@
+export {WorkboxExtended} from "./client.ts";

@@ -1,0 +1,50 @@
+{
+  "name": "offline-spa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.16",
+    "lucide-react": "^0.454.0",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.1",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^3.0.2",
+    "@emotion/react": "^11.13.3",
+    "@eslint/js": "^9.13.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "axios": "^1.7.7",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.13",
+    "express": "^4.21.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "random-words": "^2.0.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.10.0",
+    "vite": "^5.4.9",
+    "vite-plugin-pwa": "^0.20.5",
+    "vite-tsconfig-paths": "^5.0.1",
+    "workbox-core": "^7.3.0",
+    "workbox-precaching": "^7.3.0",
+    "workbox-routing": "^7.3.0",
+    "workbox-strategies": "^7.3.0",
+    "workbox-webpack-plugin": "^7.3.0",
+    "workbox-window": "^7.3.0"
+  }
+}
