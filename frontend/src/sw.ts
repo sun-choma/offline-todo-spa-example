@@ -70,7 +70,7 @@ precacheAndRoute(
     //  it's better to avoid using random UUID in prod. Use build version or file hash ID instead
     ...Object.values(COMMON_PRECACHE).map((url) => ({
       url,
-      revision: crypto.randomUUID(),
+      revision: null,
     })),
     ...(process.env.NODE_ENV === "development"
       ? Object.values(DEV_PRECACHE).map((url) => ({
